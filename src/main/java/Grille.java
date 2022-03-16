@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Grille {
@@ -62,10 +63,25 @@ public class Grille {
         }
         return rows;
     }
+    String h = "dhskls";
+    List <String > hfhf = new LinkedList<>();
 
-    public static void main(String[] args) {
-        Grille g=new Grille();
-        System.out.println(g.toString());
+     public List<List<String>> getColumns (){
+
+     return null;
+     }
+
+     public List<List<String>> getRows (){
+
+        return null;
     }
+
+    public List<List<String>> getDiagonal (){
+
+        return null;
+    }
+
+
+
 
 }
